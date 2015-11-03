@@ -1,0 +1,32 @@
+ls -l
+ll
+source /etc/bashrc
+;;
+ll
+ls
+./testing_tool.py 
+ll
+ls -l
+./testing_tool.py 
+exit
+exit
+exit
+scpaw236 
+exit
+exit
+exit
+source /bashrc
+source .bashrc
+emacs
+ls
+emacs BeaconDataOp.java
+exit
+ll
+ls -l
+mwalter
+mydbbk
+ssh walter_wang@192.168.1.150
+goar
+;;
+ll
+ls
