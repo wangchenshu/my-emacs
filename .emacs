@@ -7,6 +7,19 @@
 (setq sr-speedbar-right-side nil)
 (add-hook 'after-init-hook '(lambda () (sr-speedbar-toggle)))
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (smooth-scrolling ecb magit ssh python-mode popup names evil dired+)))
+ '(speedbar-show-unknown-files t))
+
+(require 'smooth-scrolling)
+(setq smooth-scroll-margin 3)
+
 (require 'emms-setup)
 (require 'emms-player-mplayer)
 (emms-all)
@@ -67,14 +80,7 @@
   
 (provide 'google-translate-settings)  
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (python-mode popup names google-translate evil dired+))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
